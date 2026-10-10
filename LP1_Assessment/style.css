@@ -42,9 +42,21 @@ nav a:hover {
   color: #f4c95d;
 }
 
+/* unecessary? overrides hover accessibility
 #nav-events-link:hover {
   color: #ffffff;
 }
+*/
+
+
+/*added focus on for links, inputs, buttons*/
+a:focus-visible,
+input:focus-visible,
+button:focus-visible {
+  outline: 3px solid #E0872A;
+  outline-offset: 2px;
+}
+
 
 main {
   max-width: 1000px;
