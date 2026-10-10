@@ -106,10 +106,7 @@ main {
   background: #591616;
 }
 
-.cta a {
-  background: #7a1f1f;
-  color: #fff;
-}
+/*removed cta class due to redundancy and specificity in color*/
 
 .day {
   margin-bottom: 2rem;
@@ -136,7 +133,6 @@ main {
 .signup button {
   background: #7a1f1f;
   color: #fff;
-  border: none;
   cursor: pointer;
 }
 
