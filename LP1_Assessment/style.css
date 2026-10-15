@@ -2,6 +2,17 @@
    Wisconsin Cheese Curd Festival — stylesheet
    ========================================================================== */
 
+/*
+skip link stuff
+*/
+
+
+
+nav a[aria-current="page"] {
+  font-weight: 700;
+  border-bottom: 3px solid #a65314;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -47,7 +58,6 @@ nav a:hover {
   color: #ffffff;
 }
 */
-
 
 /*added focus on for links, inputs, buttons*/
 a:focus-visible,
