@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Wisconsin Cheese Curd Festival</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <a class="skip-link" href="#main">Skip to main content</a>
+
+        <header>
+            <h1>Wisconsin Cheese Curd Festival</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <!--removed id="nav-events-link" below-->
+                    <li><a href="events.html" >Events</a></li>
+                    <li><a href="tickets.html" aria-current="page">Tickets</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="main">
+            <h1>Purchase Tickets</h1>
+            <form class="ticketform">
+                <fieldset>
+                    <legend>Email Address</legend>
+                    <label for="email">Email  <span class="required-mark">*</span></label>
+                    <br>
+                    <input type="email" id="email" name="email" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Full Name</legend>
+                    <br>
+                    <label for="name">Enter Your Full Name  <span class="required-mark">*</span></label>
+                    <br>
+                    <input type="text" id="name" name="name" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Full Address</legend>
+                    <br>
+                    <label for="address">Enter Your Address  <span class="required-mark">*</span></label>
+                    <br>
+                    <input type="text" id="address" name="address" required>
+                </fieldset>
+                    
+                <fieldset>
+                    <legend>Ticket Quantity</legend>
+                    <br>
+                    <label for="quantity">Ticket Quantity  <span class="required-mark">*</span></label>
+                    <br>
+                    <input type="number" id="quantity" name="quantity" min="1" required>  
+                </fieldset>
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Wisconsin Cheese Curd Festival | Fairgrounds Rd, Wisconsin</p>
+        </footer>
+    </body>
+</html>>    

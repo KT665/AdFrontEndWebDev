@@ -122,6 +122,10 @@ main {
   margin-right: 1rem;
 }
 
+.btn input {
+  border: none;
+}
+
 /* This rule was meant to darken the button on hover, but the .cta a
    selector below has higher specificity and overrides the color,
    so the hover effect never actually shows. */
@@ -167,6 +171,45 @@ button,
 input {
   outline: none;
 }
+
+/* for form */
+
+.ticketform input,
+.ticketform button {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.ticketform button {
+  background: #7a1f1f;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+fieldset {
+  border: 2px solid #c29696;
+  border-radius: 8px;
+  padding: 1.25rem;
+}
+
+legend {
+  font-weight: 700;
+  padding: 0 0.5rem;
+  color: #000000;
+}
+
+.required-mark {
+  color: #dc2626;
+  font-weight: 700;
+}
+
+/* .form-section {
+  padding: 1rem;
+  margin-bottom: 1rem;
+} */
 
 footer {
   background: #2b2118;
